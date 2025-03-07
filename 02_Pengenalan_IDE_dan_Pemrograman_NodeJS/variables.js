@@ -1,4 +1,4 @@
-var name = "Rifki Taufik"
+var name = "Salman Alfarisi"
 const nim = 2311104033
 
 console.log(name);
@@ -9,7 +9,7 @@ console.log(`Nama saya adalah ${name} dan nim saya adalah ${nim}`);
 
 var name = "ayam";
 
-let fullName = "Rifki Taufikurrohman";
+let fullName = "Salman Alfarisi";
 
 // const kelas
 // nim = 33
