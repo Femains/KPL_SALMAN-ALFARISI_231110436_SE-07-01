@@ -1,0 +1,24 @@
+{
+  "name": "08_gak_tau",
+  "version": "1.0.0",
+  "main": "file.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "Node.js",
+    "mysql"
+  ],
+  "author": "salmanalfarisi@gmail.com",
+  "license": "ISC",
+  "description": "ini adalah aplikasi management mahasiswa",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.6.0"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "matakuliah": [
+    {
+      "kode": "IF101",
+      "nama": "Struktur Data"
+    },
+    {
+      "kode": "IF102",
+      "nama": "Pemrograman Berorientasi Objek"
+    },
+    {
+      "kode": "IF103",
+      "nama": "Basis Data"
+    },
+    {
+      "kode": "IF104",
+      "nama": "Jaringan Komputer"
+    }
+  ]
+}

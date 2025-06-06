@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deteksi Tanda Bilangan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+    }
+    #output {
+      margin-top: 15px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Deteksi Tanda Bilangan</h2>
+  
+  <input type="text" id="inputAngka" placeholder="Masukkan angka">
+  <button onclick="proses()">Cek Tanda</button>
+
+  <div id="output">Output akan tampil di sini</div>
+
+  <script>
+    // B. Fungsi untuk mendeteksi tanda bilangan
+    function CariTandaBilangan(a) {
+      const angka = parseInt(a, 10);
+      if (isNaN(angka)) {
+        return "Input tidak valid";
+      }
+
+      if (angka > 0) {
+        return "Positif";
+      } else if (angka < 0) {
+        return "Negatif";
+      } else {
+        return "Nol";
+      }
+    }
+
+    // C. Fungsi untuk dipanggil saat tombol ditekan
+    function proses() {
+      const input = document.getElementById('inputAngka').value;
+      const hasil = CariTandaBilangan(input);
+      document.getElementById('output').innerText = `Hasil: ${hasil}`;
+    }
+  </script>
+
+</body>
+</html>

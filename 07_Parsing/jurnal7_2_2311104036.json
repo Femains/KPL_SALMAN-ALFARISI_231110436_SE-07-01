@@ -1,0 +1,25 @@
+{
+  "members": [
+    {
+      "nim": "2311104036",
+      "firstname": "Salman",
+      "lastname": "Alfarisi",
+      "age": 20,
+      "gender": "Male"
+    },
+    {
+      "nim": "2311104037",
+      "firstname": "Dina",
+      "lastname": "Kurnia",
+      "age": 21,
+      "gender": "Female"
+    },
+    {
+      "nim": "2311104038",
+      "firstname": "Raka",
+      "lastname": "Pratama",
+      "age": 22,
+      "gender": "Male"
+    }
+  ]
+}
