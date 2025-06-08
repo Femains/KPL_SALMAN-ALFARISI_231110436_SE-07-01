@@ -22,5 +22,5 @@ class MKSalman {
   }
 }
 
-// ✅ Pemanggilan
+
 MKSalman.ReadJSON('./tp7_2_2311104036.json');

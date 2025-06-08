@@ -22,5 +22,5 @@ class tim2311104036 {
   }
 }
 
-// ✅ Pemanggilan
+
 tim2311104036.ReadJSON('./jurnal7_2_2311104036.json');
